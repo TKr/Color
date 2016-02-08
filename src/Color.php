@@ -1,4 +1,7 @@
 <?php
+
+namespace TKr;
+
 /**
  * Color utility and conversion
  *

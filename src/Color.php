@@ -602,8 +602,6 @@ class Color {
         $max_contrast_color = $bg_color->getMaxContrastColor();
         $max_contrast = $max_contrast_color->getDistanceLuminosityFrom( $bg_color );
 
-        var_export([$contrast, $max_contrast]);
-
         // if current max contrast is less than the target contrast, we had wishful thinking.
         // still, go max
         if ( $max_contrast <= $target_contrast ) {
